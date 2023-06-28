@@ -1,1 +1,42 @@
+.header {
+    background-color: #1f2937;
+    color: white;
+    height: 50vh;
+}
 
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.top-sign-up {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hbrag {
+    display: flex;
+}
+
+.pbrag {
+    display: flex;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.image {
+    display: flex;
+    
+}

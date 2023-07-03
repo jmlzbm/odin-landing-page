@@ -2,6 +2,9 @@
     background-color: #1f2937;
     color: white;
     height: 60vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .top-header {
@@ -103,4 +106,35 @@ img {
     justify-content: center;
     margin-bottom: -48px;
     margin-left: 9px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    height: 60vh;
+    margin-top: 20vh;
+    display: flex;
+}
+
+.quote, .ak {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    inline-size: 450px;
+    padding-left: 450px;
+    }
+
+.ak {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 150px;
+    margin-right: 100px;
+
 }

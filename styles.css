@@ -1,3 +1,7 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 .main-header {
     background-color: #1f2937;
     color: white;
@@ -48,6 +52,16 @@
 
 .topbutt {
     background-color: #3882F6;
+    margin: 10px 0;
+    border: none;
+    box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, .5);
+    color: #fff;
+    font-size: 1.25rem;
+    outline: none;
+    cursor: pointer;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
 }
 
 img {
@@ -136,5 +150,46 @@ img {
     color: #1f2937;
     margin-top: 150px;
     margin-right: 100px;
+}
 
+.footer-signup {
+    background-color: white;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    background-color: #3882F6;
+    display: flex;
+    gap: 200px;
+    padding: 65px 240px;
+    border-radius: 20px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.footer-heading {
+    color: white;
+    font-size: 30px;
+}
+
+.footer-subheading {
+    color: lightgrey;
+}
+
+.bottombutt {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: none;
 }

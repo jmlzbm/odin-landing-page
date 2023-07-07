@@ -193,3 +193,17 @@ img {
     cursor: pointer;
     box-shadow: none;
 }
+
+.footer {
+    background-color: #1f2937;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    display: flex;
+    color: white;
+    font-size: 18px;
+}
